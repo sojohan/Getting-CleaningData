@@ -3,6 +3,7 @@ Code book for Course Project for the course Getting and Cleaning Data.
 This code book covers the following topics: 
   1. Description of the variables and data
   2. The code and transformations of the variables if any
+  3. Output from analysis
  
  
 Regarding 1. 
@@ -43,4 +44,7 @@ I have made comments in the code run_analysis.R, and it follows the 5 steps that
   5. ddply for making aggregated tidy data by activity and subject and averages. Part       of the plyr package.
   6. Write.table() for writing the final tidy data set.
   
+  Regarding 3. 
+  
+  The output of the run_analysis code is tidyfinal.txt. I have used ; as separation. 
   
